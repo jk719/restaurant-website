@@ -1,0 +1,68 @@
+/* src/components/MostOrdered/MostOrdered.css */
+.most-ordered {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.most-ordered-title {
+    color: #ec5a29;
+    margin-bottom: 20px;
+}
+
+.most-ordered-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.dish {
+    flex: 0 0 auto;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.dish-name {
+    color: #ec5a29;
+    margin: 10px 0;
+}
+
+.dish-price {
+    margin: 5px 0;
+}
+
+.add-to-cart-button {
+    background-color: #ec5a29;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.add-to-cart-button:hover {
+    background-color: #cf4520;
+}
+
+.most-ordered-list::-webkit-scrollbar {
+    display: none;
+}
+
+.most-ordered-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

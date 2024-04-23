@@ -1,0 +1,49 @@
+/* src/components/Footer/Footer.css */
+.footer {
+    background-color: #ec5a29; /* Matches the header background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-address {
+    margin: 0 0 10px;
+    font-size: 1em;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-links a {
+        margin: 5px;
+    }
+}

@@ -1,0 +1,51 @@
+/* src/components/Hero/Hero.css */
+.hero {
+    height: 400px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover; /* Ensures the background covers the hero area */
+    background-position: center; /* Center the background image */
+}
+
+.menu-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #ec5a29; /* Match the orange theme */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+    background-color: #cf4520; /* Darker shade for hover state */
+}
+
+/* Adjust hero height on smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+    }
+}
+
+.menu-button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #ec5a29; /* Orange theme */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Adjust button size on smaller screens */
+@media (max-width: 768px) {
+    .menu-button {
+        padding: 8px 16px;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,76 @@
+/* src/components/Header/Header.css */
+.header {
+    background-color: #ec5a29; /* Orange background */
+    color: white; /* White text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-info {
+    text-align: center;
+    flex-grow: 1; /* Makes the middle section grow to use available space */
+}
+
+.restaurant-name {
+    margin: 0;
+    font-size: 2em;
+}
+
+.restaurant-address {
+    margin: 0;
+    font-size: 1em;
+}
+
+.header-logo {
+    /* Assign a class to the logo container if necessary */
+}
+
+.header-logo img {
+    max-height: 50px; /* Adjust size as needed */
+    max-width: 100%; /* Ensure it's responsive and doesn't overflow its container */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.header-login button {
+    background-color: white; /* White background for the button */
+    color: #ec5a29; /* Orange text for the button */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.header-login button:hover {
+    background-color: #f7d7c4; /* Lighter orange for hover state */
+}
+
+/* Responsive adjustments for the header */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .header-logo img {
+        max-height: 40px; /* Adjusted size for smaller screens */
+    }
+    
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-login {
+        margin-top: 10px;
+    }
+}
