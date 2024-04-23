@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mathpoint/static/css/main.3fef7bac.css",
+    "main.js": "/mathpoint/static/js/main.bbe9e7cd.js",
+    "static/js/453.152852de.chunk.js": "/mathpoint/static/js/453.152852de.chunk.js",
+    "static/media/hero-image.jpg": "/mathpoint/static/media/hero-image.81223440fc31e8f3685a.jpg",
+    "static/media/szechuan-beef.jpg": "/mathpoint/static/media/szechuan-beef.a9219b143da2b8d871a2.jpg",
+    "static/media/egg-foo-young.jpg": "/mathpoint/static/media/egg-foo-young.7a33bf9eec4fa015dfae.jpg",
+    "static/media/kungpao-chicken.jpg": "/mathpoint/static/media/kungpao-chicken.b750b8088e3b9df50774.jpg",
+    "static/media/honey-walnut-shrimp.jpg": "/mathpoint/static/media/honey-walnut-shrimp.cb89a2030efcceef33c1.jpg",
+    "static/media/sweet-sour-pork.jpg": "/mathpoint/static/media/sweet-sour-pork.0cf5578f1ce0845ffd68.jpg",
+    "static/media/crispy-duck.jpg": "/mathpoint/static/media/crispy-duck.5763760defe8c9409db8.jpg",
+    "static/media/vegetable-springrolls.jpg": "/mathpoint/static/media/vegetable-springrolls.2ff524d417c26bff619b.jpg",
+    "index.html": "/mathpoint/index.html",
+    "main.3fef7bac.css.map": "/mathpoint/static/css/main.3fef7bac.css.map",
+    "main.bbe9e7cd.js.map": "/mathpoint/static/js/main.bbe9e7cd.js.map",
+    "453.152852de.chunk.js.map": "/mathpoint/static/js/453.152852de.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fef7bac.css",
+    "static/js/main.bbe9e7cd.js"
+  ]
+}
