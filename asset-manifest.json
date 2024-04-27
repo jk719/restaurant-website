@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/restaurant-website/static/css/main.3fef7bac.css",
+    "main.css": "/restaurant-website/static/css/main.218f8d2b.css",
     "main.js": "/restaurant-website/static/js/main.d23a0678.js",
     "static/js/453.152852de.chunk.js": "/restaurant-website/static/js/453.152852de.chunk.js",
     "static/media/hero-image.jpg": "/restaurant-website/static/media/hero-image.81223440fc31e8f3685a.jpg",
@@ -12,12 +12,12 @@
     "static/media/crispy-duck.jpg": "/restaurant-website/static/media/crispy-duck.5763760defe8c9409db8.jpg",
     "static/media/vegetable-springrolls.jpg": "/restaurant-website/static/media/vegetable-springrolls.2ff524d417c26bff619b.jpg",
     "index.html": "/restaurant-website/index.html",
-    "main.3fef7bac.css.map": "/restaurant-website/static/css/main.3fef7bac.css.map",
+    "main.218f8d2b.css.map": "/restaurant-website/static/css/main.218f8d2b.css.map",
     "main.d23a0678.js.map": "/restaurant-website/static/js/main.d23a0678.js.map",
     "453.152852de.chunk.js.map": "/restaurant-website/static/js/453.152852de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fef7bac.css",
+    "static/css/main.218f8d2b.css",
     "static/js/main.d23a0678.js"
   ]
 }
